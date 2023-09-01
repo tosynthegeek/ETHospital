@@ -8,7 +8,7 @@ contract Hospital {
 
     Counters.Counter private _nurseCount; //total number of Nurses
     Counters.Counter private _patientCount; //total number of Patients
-    // Counters.Counter private _inspectionCount; //total number of Inspection
+    // Counters.Counter private _inspectionCount; //total number of Inspections
 
     address public owner;
     // Cars public cars;
@@ -25,7 +25,7 @@ contract Hospital {
         string date;
     }
 
-    // Struct to store nurse information
+    // Struct to store nurses information
     struct Nurse {
         uint256 itemId;
         address nurseAddress;
